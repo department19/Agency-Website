@@ -173,10 +173,8 @@ nav {
   outline: 1px dashed red;
 }
 
-.team-grid {
-  width: 100%;
+#team-grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 40rem;
 }
 
 .team-card {
