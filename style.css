@@ -71,6 +71,10 @@ h2 {
   letter-spacing: 1px;
 }
 
+.grid {
+  display: grid;
+}
+
 /* nav bar */
 
 nav {
@@ -170,13 +174,15 @@ nav {
 }
 
 .team-grid {
-
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 40rem;
 }
 
 .team-card {
   position: relative;
-	max-width: 30rem;
-	height: 45rem;
+	max-width:25rem;
+	height: 35rem;
   border-radius: var(--border-radius);
   background-color: var(--card-colour);
   box-shadow:
@@ -187,4 +193,28 @@ nav {
 		0 10px 8px rgba(0, 0, 0, .05),
 		0 4px 4px rgba(0, 0, 0, .04),
 		0 2px 2px rgba(0, 0, 0, .03);
+  grid-template-rows: 60% 40%;
+}
+
+.card-header {
+  display: flex;
+	justify-content: center;
+	overflow: hidden;
+	align-self: center;
+	/* margin: 1rem 0 1rem; */
+  padding: 1rem 0 0;
+  height: 100%;
+}
+
+.card-header img {
+  width: auto;
+	height: 100%;
+	align-self: center;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+	padding: 0 2rem;
 }
