@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agency Website</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="forms.css">
     <!-- Box Icons -->
     <link
       rel="stylesheet"
@@ -198,23 +199,22 @@
     </section>
     <section id="contact-us">
       <h1>Send us your commision!</h1>
-      <form action="">
+      <form method="get" action="https://learn-forms.netlify.com/submit/part1" target="_blank">
         <fieldset>
           <label for="fname">Name:</label>
           <input id="fname" name="fname" type="text" required placeholder="Please enter your name">
           <label for="femail">E-mail:</label>
-          <input id="femail" name="femail" type="email" required placeholder="email">
+          <input id="femail" name="femail" type="email" required placeholder="Please enter your E-mail here">
           <label for="fphone">Phone Number:</label>
-          <input id="fphone" name="fphone" type="tel" required placeholder="phone number">
+          <input id="fphone" name="fphone" type="tel" required placeholder="Phone number here">
         </fieldset>
         <fieldset>
           <label for="fenquiry">Details of your commision:</label>
           <textarea name="fenquiry" id="fenquiry" cols="30" rows="10" required placeholder="Please tell us the details of what you'd like"></textarea>
           <label for="fsketch">Upload your sketch</label>
-          <input id="fsketch" name="fsketch" type="file" required>
+          <input id="fsketch" name="file" type="file">
         </fieldset>
-        <input id="T&C" name="T&C" type="checkbox">
-        <input type="submit" value="submit">
+        <input type="submit" value="submit" class="active-btn">
       </form>
     </section>
 
