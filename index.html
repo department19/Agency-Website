@@ -202,15 +202,15 @@
       <form method="get" action="https://learn-forms.netlify.com/submit/part1" target="_blank">
         <fieldset>
           <label for="fname">Name:</label>
-          <input id="fname" name="fname" type="text" required placeholder="Please enter your name">
+          <input id="fname" name="fname" type="text" maxlength="30" required placeholder="Please enter your name">
           <label for="femail">E-mail:</label>
-          <input id="femail" name="femail" type="email" required placeholder="Please enter your E-mail here">
+          <input id="femail" name="femail" type="email" maxlength="50" required placeholder="Please enter your E-mail here">
           <label for="fphone">Phone Number:</label>
-          <input id="fphone" name="fphone" type="tel" required placeholder="Phone number here">
+          <input id="fphone" name="fphone" type="tel" maxlength="30" required placeholder="Phone number here">
         </fieldset>
         <fieldset>
           <label for="fenquiry">Details of your commision:</label>
-          <textarea name="fenquiry" id="fenquiry" cols="30" rows="10" required placeholder="Please tell us the details of what you'd like"></textarea>
+          <textarea name="fenquiry" id="fenquiry" cols="30" rows="10" maxlength="1000" required placeholder="Please tell us the details of what you'd like"></textarea>
           <label for="fsketch">Upload your sketch</label>
           <input id="fsketch" name="file" type="file">
         </fieldset>
