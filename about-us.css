@@ -1,0 +1,39 @@
+#services {
+    padding: 0;
+    /* background-image: url(images/so-white.jpg); */
+    /* background-color: #fcf4fa; */
+}
+
+.about-us {
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem 0;
+}
+
+.j-box {
+    background-image: url(images/so-white.jpg);
+    color: var(--base-colour);
+    margin: 0;
+}
+
+.grid > .j-box:nth-of-type(odd) {
+    grid-column: 1 /4;
+}
+
+.grid > .j-box:nth-of-type(even) {
+    grid-column: 2 / 5;
+}
+
+.img-box {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-box img {
+    position: relative;
+    height: 100%;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
