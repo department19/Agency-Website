@@ -87,6 +87,17 @@ This will allow to work on your current feature but ensure it's uptodate with ma
 - on github make a pull request for your branch
 
 # Development Log
+## About Us Section
+### 0.2
+- altered the grid to be responsive by over lapping the paired image and text over lap in the same css grid
+- made the "j-box" to have a blur filter and overlap the picture on mobile formats
+
+### 0.1
+- readded the about us section into the section for some reason names "services"
+- made a styled staggered section for the 2 parts of the about me to be adjecent to 2 images
+- used grid to position the elements into 
+> Jack L
+
 ## Contact Form
 ### 0.2
 - Added a test environment for the forms element
@@ -124,7 +135,7 @@ This will allow to work on your current feature but ensure it's uptodate with ma
 - navigation
     - Website needs a good navigation menu or bar to fulfil the acceptance criteria - **done**
     - Clients will want to be able to click to navigate to different sections of webpage - **done**
-    - For accessibility enable clients to be able navigate website using keyboard controls
+    - For accessibility enable clients to be able navigate website using keyboard controls effectively and focus on specific text elements as they wish
 - contact form
     - good labels and a11y tags
     - correct types
