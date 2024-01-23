@@ -13,7 +13,9 @@
 .j-box {
     background-image: url(images/so-white.jpg);
     color: var(--base-colour);
+    width: 100%;
     margin: 0;
+    padding: auto 1rem; 
 }
 
 .grid > .j-box:nth-of-type(odd) {
@@ -22,6 +24,11 @@
 
 .grid > .j-box:nth-of-type(even) {
     grid-column: 2 / 5;
+}
+
+.j-box p {
+    width: 80%;
+    font-size: 1.3rem;
 }
 
 .img-box {
@@ -36,4 +43,10 @@
     width: auto;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (max-width: 991px) {
+    .about-us {
+        grid-template-rows: 1vh 1vh;
+    }
 }
