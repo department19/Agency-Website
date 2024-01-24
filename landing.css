@@ -1,0 +1,58 @@
+.landing-banner {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.landing-banner video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(60%);
+}
+
+#home {
+    padding: 0;
+}
+
+.blur-panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(2px) saturate(200%);
+    -webkit-backdrop-filter: blur(2px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.home-text {
+    box-sizing: border-box;
+    padding: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    z-index: 5;
+    background-color: var(--base-colour);
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+@media (max-width: 991px) {
+    .home-text {
+        width: 100%;
+        border-radius: 0;
+        left: 0;
+        transform: translate(0, -50%);
+        padding: 50px 100px;
+    }
+}

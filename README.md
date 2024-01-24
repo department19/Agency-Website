@@ -87,6 +87,18 @@ This will allow to work on your current feature but ensure it's uptodate with ma
 - on github make a pull request for your branch
 
 # Development Log
+## Landing Page
+### 0.2
+- added a div element to act as a blur panel for video
+    - this may have been better to achive through the use of the filter CSS attribute?
+- added a box background colour to the text elements for better visibility
+- added @media ruling to allow the landing page to work well on mobiles
+
+### 0.1
+- removed unecessary elements
+- added video background banner
+- centralised the text elements
+
 ## About Us Section
 ### 0.2
 - altered the grid to be responsive by over lapping the paired image and text over lap in the same css grid
@@ -94,7 +106,7 @@ This will allow to work on your current feature but ensure it's uptodate with ma
 
 ### 0.1
 - readded the about us section into the section for some reason names "services"
-- made a styled staggered section for the 2 parts of the about me to be adjecent to 2 images
+- made a styled staggered section for the 2 parts of the about me to be adjacent to 2 images
 - used grid to position the elements into 
 > Jack L
 

@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="forms.css" />
     <link rel="stylesheet" href="about-us.css" />
+    <link rel="stylesheet" href="landing.css">
     <!-- Box Icons -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
+    <script src="landing-animation.js"></script>
   </head>
   <body>
     <!-- Navbar -->
     <nav>
       <!-- Logo -->
-      <a href="#home" class="logo"><i class="bx bx-play"></i>Ambs</a>
+      <a href="#home" class="logo"><i class="bx bx-play"></i>SBC</a>
       <div class="toggle" onclick="toggleMenu();"></div>
       <ul class="menu">
         <li><a href="#services" onclick="toggleMenu();">About Us</a></li>
@@ -29,26 +31,18 @@
     </nav>
     <!-- Home -->
     <section id="home">
+      <div class="landing-banner">
+        <video autoplay muted loop>
+          <source src="images/landing-banner2.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="blur-panel"></div>
       <div class="home-text">
-        <h2>Sending Funds Abroad To Cards</h2>
-        <h1>We help you to <br />keep up with you <br />ambition</h1>
-        <p>We help your business to keep up with your ambition</p>
-        <!-- Email -->
-        <div class="email-box">
-          <input type="email" placeholder="Enter your email..." />
-          <a href="#"><i class="bx bx-fast-forward-circle"></i></a>
-        </div>
+        <!-- <h2>Sending Funds Abroad To Cards</h2> -->
+        <!-- <h1>We help you to <br />keep up with you <br />ambition</h1> -->
+        <h1>Sketchy Business Creations</h1>
+        <h2>Where Doodles Meet Deadlines</h2>
       </div>
-      <!-- Image -->
-      <div class="home-img">
-        <img src="images/pic.jpg" class="feature-img" />
-      </div>
-      <!-- Scroll -->
-      <a href="#services" class="scroll-down">
-        <i class="bx bx-mouse"></i>
-        Scroll Down
-        <i class="bx bxs-down-arrow-alt"></i>
-      </a>
     </section>
     <!-- Services-->
 
