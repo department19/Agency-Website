@@ -331,6 +331,10 @@ nav {
 /* Making Responsive */
 
 @media (max-width: 991px) {
+  section {
+    height: fit-content;
+  }
+  
   .menu {
     position: fixed;
     top: 68px;

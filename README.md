@@ -95,7 +95,7 @@ This will allow to work on your current feature but ensure it's uptodate with ma
 - added @media ruling to allow the landing page to work well on mobiles
 
 ### 0.1
-- removed unecessary elements
+- removed unnecessary elements
 - added video background banner
 - centralised the text elements
 
