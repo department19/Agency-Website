@@ -29,7 +29,10 @@ The project aims to create a modern, responsive and user-friendly website that s
 
 ### Responsive and Accesibility Considerations
 - need to ensure website can accomodate mobiles screens
-- Screen readers needed for website accesbility
+    - Adjustments have been made!
+- Good structuring and semantic HMTL to enable smooth navigation for keyboard navigation and screen readers
+- Look into attributes that will assist in keyboard navigation
+- Add attributes and labels to forms elements to enable the forms functions well for screen readers
 
 
 ## Theme ideas
@@ -98,6 +101,7 @@ This will allow to work on your current feature but ensure it's uptodate with ma
 - removed unnecessary elements
 - added video background banner
 - centralised the text elements
+> Jack L
 
 ## About Us Section
 ### 0.2
